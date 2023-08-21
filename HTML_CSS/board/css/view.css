@@ -1,0 +1,43 @@
+.view{
+    width: 1000px;
+    margin: auto;
+}
+
+.view-header{
+    background-color: #eee;
+    border-top: 4px soild black;
+    border-bottom: 1px solid #ddd;
+}
+
+.view-info{
+    display: flex;
+}
+
+.view-info p:not(:first-child)::before{
+    content:'|';
+    color: #aaa;
+    margin: 0 20px;
+}
+
+.view-contents{
+    padding: 20px;
+}
+
+.view-contents ol,
+.view-contents ul{
+    list-style-position: inside;
+}
+
+.view-contents h2
+.view-contents h3
+.view-contents h4
+.view-contents strong{
+    font-style: bold;
+}
+
+.view-contents h4{
+    magin-top: 30px;
+}
+view-contents h4{
+    magin-bottom: 20px;
+}

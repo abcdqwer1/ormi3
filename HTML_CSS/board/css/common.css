@@ -1,0 +1,96 @@
+/* 초기화 reset ------------------------------*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+ul,
+ol,
+li,
+fieldset,
+legend{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.login{
+    width: 400px;
+    margin: auto;
+}
+
+.main-title,
+.main-desc{
+    text-align: center;
+}
+.main-title{
+
+    font-size: 24px;
+}
+.main-desc{
+    color:gray;
+    margin: 10px 0 32px;
+}
+/* 컨테이너1 */
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/* 컨테이너2 */
+.flex-input{
+    display: flex;
+    align-items: center;
+}
+
+.flex-input label{
+    width: 80px;
+}
+.flex-input input{
+    height: 28px;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-btn{
+    background-color: royalblue;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    color:#ddd;
+    font-weight: bold;
+}
+
+.field{
+    border: 0;
+}
+
+.field legend{
+    float: left;
+    width: 80px;
+}
+
+.field ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.field-flex{
+    display: flex;
+}
+
+.field-flex p{
+    width: 80px;
+    flex-shrink: 0;
+}
+
+/* main -------------------------------------*/
+/* login page */
