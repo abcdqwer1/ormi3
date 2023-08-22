@@ -5,7 +5,8 @@
 
 .view-header{
     background-color: #eee;
-    border-top: 4px soild black;
+    padding: 20px;
+    border-top: 4px solid black;
     border-bottom: 1px solid #ddd;
 }
 
@@ -21,11 +22,17 @@
 
 .view-contents{
     padding: 20px;
+    border-bottom: 2px solid gainsboro;
 }
 
 .view-contents ol,
 .view-contents ul{
     list-style-position: inside;
+    /* padding-bottom: 30px; */
+}
+
+.view-contents ol{
+    margin-bottom: 20px;
 }
 
 .view-contents h2
@@ -36,8 +43,8 @@
 }
 
 .view-contents h4{
-    magin-top: 30px;
+    margin-top: 30px;
 }
-view-contents h4{
-    magin-bottom: 20px;
+.view-contents h4{
+    margin-bottom: 20px;
 }
