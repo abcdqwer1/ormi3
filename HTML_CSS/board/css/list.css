@@ -1,0 +1,57 @@
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+
+.list{
+    width: 1000px;
+    margin: auto;
+}
+
+.board-table{
+    border-collapse: collapse;
+    /* border-collapse 테두리가 겹치는 부분을 뜨지않고 겹쳐서 보이게 해주는 효과 */
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.board-table th{
+    background-color: #eee;
+}
+
+.board-table td,
+.board-table th{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.board-table th,
+.board-table td{
+    padding: 8px;
+}
+
+.board-table a{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+/* .board-table-title{
+    text-align: left;
+} */
+
+.tal{
+    text-align:  left;
+}
+
+.write select{
+
+}
+
+.write input[type="text"],
+.write textarea{
+    width: 100%;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>write</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+
+<body>
+    <!-- <header>
+    <h1></h1>
+    </header> -->
+
+    <!-- <main class="write">
+        <h2 class="main-title">글쓰기</h2>
+        <p class="main-desc">내용을 입력해 주세요</p>
+
+        <form class="main-form" method="GET">
+
+            <div class="flex-input">
+            <label for="write-catagori">카테고리</label>
+            <input id="write-catagori" type="list" />
+            </div>
+
+            <div class="flex-input">
+            <label for="write-title">제목</label>
+            <input id="write-title" type="text" />
+            </div>
+
+            <div class="flex-input">
+            <label for="write-main"> 내용</label>
+            <input id="write-main" type="text" />
+            </div>
+
+            <div class="flex-input">
+                <label for="write-upload">파일첨부</label>
+                <input id="write-upload" type="file" />
+            </div>
+        
+            <div class="flex-btn">
+                <a class="btn-list" href="./list.html">목록</a>
+                <button class="reset-btn" type="reset">초기화</button>
+                <button class="write-btn" type="submit">작성</button>
+            </div>
+
+        </form>
+        </main> -->
+
+        <main class="write">
+            <h2 class="main-title">글쓰기</h2>
+            <p class="main-desc">내용을 입력해 주세요</p>
+
+            <form method="POST">
+                <table class="board-table">
+                    <colgroup>
+                        <col style="width: 120px;">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th><label for="category">카테고리</label></th>
+                            <td class="tal">
+                                <select name="category" id="category">
+                                    <option value="category1" selected>일반</option>
+                                    <option value="category2">공지사항</option>
+                                </select>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <th><label for="board-title">제목</label></th>
+                            <td class="tal">
+                                <input name="board-title" id="board-title" type="text" minlength="5" maxlength="30" placeholder="5글자 이상 30글자 이하" required>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <th><label for="board-content">내용</label></th>
+                            <td class="tal">
+                                <textarea name="board-content" id="board-content" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <th><label for="board-file">파일첨부</label></th>
+                            <td class="tal">
+                                <input id="board-file" name="board-file" type="file" accept="image/jpg">
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+                
+                <div class="btn-group">
+                    <a class="btn" href="./list.html">목록</a>
+                    <button type="reset">초기화</button>
+                    <button type="submit">작성</button>
+                </div>
+            </form>
+
+        </main>
+        <!-- <footer></footer> -->
+</body>
+</html>
