@@ -70,11 +70,10 @@
 ]
 
 const users_name_age = users.map(function(a) {
-    return `${a.age} ${a.name}`;
+    // return `${_id=a._id} ${age=a.age} ${name=a.name}`
+    return { "_id": a._id, "name": a.name, "age": a.age }
 } );
 console.log(users_name_age);
 
 </script>
 </html>
-
-
